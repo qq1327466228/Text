@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 62px;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #d6dfea;
+    background: #eff4fa;
+}
+.content{
+    width: 960px;
+    margin: 128px auto;
+    padding: 0 24px;
+}
+.login_picture{
+    float: left;
+    width: 500px;
+    background-image:url('../img/1.png');
+    background-position:56px 60px;
+    background-repeat:no-repeat;
+}
+.login_txt{
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #6f95c8;
+}
+.footer{
+    position:fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    clear: both;
+    line-height: 36px;
+    text-align: center;
+    color: #b6b6b6;
+    background-color: #eff4fa;
+    border-top: 1px solid #d6dfea;
+    min-width: 1070px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    font-size: 12px;
+}
+.login{
+    text-decoration:none;
+}
+#login{
+    float: right;
+    width: 450px;
+    height: 321px;
+    background-color: red;
+    background-color: #f9fbfe;
+    border: 1px solid black;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.zhanghao{
+    color: #333;
+    display: inline-block;
+    line-height: 25px;
+    outline: 0;
+    margin:17px 150px;
+    width:200px;
+    font-size: 23px;
+    font-family:幼圆;
+}
+.login_denglu{
+    width: 450px;
+    height: 200px;
+    background-color: white;
+}
+.text{
+    margin: 10px 50px 6px 90px;
+    width: 236px;
+    height: 35px;
+}
+.button{
+    background: none;
+    height: 40px;
+    line-height: 39px;
+    width: 43%;
+    outline: none;
+    background-color: #5a98de;
+    top: 25px;
+    align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    font: 400 13.3333px Arial;
+    margin:10px 0px 0px 20px;
+}
+.header img{
+    width: 60px;
+    height: 60px;
+    vertical-align:middle;
+}
+.header a{
+    color: red;
+    font-family:幼圆;
+}
